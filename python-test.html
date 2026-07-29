@@ -22,6 +22,12 @@
           a = float(document.querySelector("#num1").value)
           b = float(document.querySelector("#num2").value)
           document.querySelector("#result").innerText = f"The answer is {a + b}"
+
+      canvas = document.querySelector("#game")
+      ctx = canvas.getContext("2d")
+
+      ctx.fillStyle = "red"
+      ctx.fillRect(100, 50, 50, 50)
     </script>
   </body>
 </html>
